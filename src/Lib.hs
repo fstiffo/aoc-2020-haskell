@@ -11,10 +11,11 @@ dispHeader = do
   putStrLn ""
   putStrLn ""
 
-dispDay :: Integer -> String -> IO Int -> Integer -> IO ()
+dispDay :: Integer -> String -> IO Int -> IO Int -> IO ()
 dispDay day title sol1 sol2 = do
   putStrLn $ "--- Day " ++ show day ++ ": " ++ title ++ " ---"
   s1 <- sol1
+  s2 <- sol2
   putStrLn $ "Your puzzle answer was " ++ show s1
   putStrLn "--- Part Two ---"
-  putStrLn $ "Your puzzle answer was " ++ show sol2
+  putStrLn $ "Your puzzle answer was " ++ show s2
