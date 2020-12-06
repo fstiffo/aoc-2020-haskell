@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "aoc2020-haskell:lib"
+
+    - path: "./app/Main.hs"
+      component: "aoc2020-haskell:exe:aoc2020-haskell-exe"
+
+    - path: "./app/Paths_aoc2020_haskell.hs"
+      component: "aoc2020-haskell:exe:aoc2020-haskell-exe"
+
+    - path: "./test"
+      component: "aoc2020-haskell:test:aoc2020-haskell-test"
