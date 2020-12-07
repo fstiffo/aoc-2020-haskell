@@ -23,6 +23,9 @@ dependencies:
   - base >= 4.7 && < 5
   - split
   - Unique >= 0.4.7
+  - parsec
+  - parsec-numbers
+  - Earley
 
 library:
   source-dirs: src

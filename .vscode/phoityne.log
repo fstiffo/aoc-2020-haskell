@@ -1,0 +1,77 @@
+2020-12-07 18:38:19.498720100000 [15844(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/src/Day07.hs> [("Main","/mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/test/Spec.hs")])
+2020-12-07 18:38:20.983658300000 [15844(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:38:48.231520700000 [16045(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/src/Day07.hs> [("Main","/mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/test/Spec.hs")])
+2020-12-07 18:38:49.950522100000 [16045(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:40:31.961610200000 [16189(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/src/Day07.hs> [("Main","/mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/test/Spec.hs")])
+2020-12-07 18:40:32.056103600000 [16189(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/app/Main.hs> [("Main","/mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/test/Spec.hs")])
+2020-12-07 18:40:33.776268500000 [16189(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:41:17.830152700000 [16455(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/src/Day07.hs> [("Main","/mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/test/Spec.hs")])
+2020-12-07 18:41:17.914561300000 [16455(ThreadId 17)] ERROR APP - user error (loaded module can not find from path. </mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/app/Main.hs> [("Main","/mnt/d/Users/Francesco/Documents/Haskell/aoc2020-haskell/test/Spec.hs")])
+2020-12-07 18:41:19.762610800000 [16455(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:42:32.193742100000 [16547(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":20}
+2020-12-07 18:42:33.665917700000 [16547(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":21}
+2020-12-07 18:42:35.703991200000 [16547(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":22}
+2020-12-07 18:42:36.726692400000 [16547(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":23}
+2020-12-07 18:42:42.038301100000 [16547(ThreadId 17)] ERROR APP - user error (no stacktrace found.)
+2020-12-07 18:42:42.074710800000 [16547(ThreadId 17)] ERROR APP - user error (no stacktrace found.)
+2020-12-07 18:42:42.803907700000 [16547(ThreadId 17)] ERROR APP - user error (ExecResult not found.)
+2020-12-07 18:42:45.016452600000 [16547(ThreadId 17)] ERROR APP - user error (ExecResult not found.)
+2020-12-07 18:42:49.643474700000 [16547(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":54}
+2020-12-07 18:42:51.362659400000 [16547(ThreadId 17)] ERROR APP - user error (ExecResult not found.)
+2020-12-07 18:43:06.333462200000 [16547(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:43:32.981315100000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":33}
+2020-12-07 18:45:16.729918900000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":93}
+2020-12-07 18:45:21.221022900000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":94}
+2020-12-07 18:45:22.465976600000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":95}
+2020-12-07 18:45:24.005178700000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":96}
+2020-12-07 18:45:25.153919900000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":97}
+2020-12-07 18:45:26.775756300000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":98}
+2020-12-07 18:45:27.545915600000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":99}
+2020-12-07 18:45:28.146928800000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":100}
+2020-12-07 18:45:28.929154300000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":101}
+2020-12-07 18:45:29.634083600000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":102}
+2020-12-07 18:45:30.393672100000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":103}
+2020-12-07 18:45:30.718775700000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":104}
+2020-12-07 18:45:30.977356900000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":105}
+2020-12-07 18:45:31.243368800000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":106}
+2020-12-07 18:45:31.565557400000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":107}
+2020-12-07 18:45:32.052820500000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":108}
+2020-12-07 18:45:32.263680500000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":109}
+2020-12-07 18:45:32.475651800000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":110}
+2020-12-07 18:45:32.686042000000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":111}
+2020-12-07 18:45:32.893152800000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":112}
+2020-12-07 18:45:33.127669000000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":113}
+2020-12-07 18:45:33.345520700000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":114}
+2020-12-07 18:45:33.549086700000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":115}
+2020-12-07 18:45:33.757609600000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":116}
+2020-12-07 18:45:33.983566500000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":117}
+2020-12-07 18:45:34.190861100000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":118}
+2020-12-07 18:45:34.415133100000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":119}
+2020-12-07 18:45:34.626312000000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":120}
+2020-12-07 18:45:34.865706500000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":121}
+2020-12-07 18:45:35.091556200000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":122}
+2020-12-07 18:45:35.306317400000 [16644(ThreadId 16)] WARNING REQUEST - unsupported request command. {"command":"stepOut","arguments":{"threadId":0},"type":"request","seq":123}
+2020-12-07 18:45:37.320278000000 [16644(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:46:03.248730800000 [16745(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:47:06.411593600000 [16843(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:52:59.322924800000 [17115(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:53:16.571765100000 [17212(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:56:03.202737200000 [17314(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:57:34.384807200000 [17411(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:58:30.542827300000 [17503(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 18:58:55.539510900000 [17594(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:01:28.876905900000 [17858(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:04:15.089351700000 [17953(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:04:45.168692500000 [18049(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:06:34.322651300000 [18493(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:08:06.618005700000 [18582(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:08:27.224954100000 [18675(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-07 19:09:01.486576000000 [18675(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-07 19:09:11.423188300000 [18675(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:09:49.512720300000 [18766(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:10:54.490543600000 [18855(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:11:22.197840200000 [18947(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:11:39.137842100000 [19036(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:11:53.870600900000 [19127(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 19:17:11.474041900000 [19571(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-07 19:17:41.568240500000 [19571(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
