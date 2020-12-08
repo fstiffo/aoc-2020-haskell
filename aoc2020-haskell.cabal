@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cd497a5b4c1e593d46110512a9342df4d5eb1b096aaea5e79d8ae26498091bf2
+-- hash: 1c063f5c09ba243d98cfc7a12babb85df88f90d3271b7b73e3fdc6b5662cdaf0
 
 name:           aoc2020-haskell
 version:        0.1.0.0
@@ -35,9 +35,9 @@ library
   hs-source-dirs:
       src
   build-depends:
-      Earley
-    , Unique >=0.4.7
+      Unique >=0.4.7
     , base >=4.7 && <5
+    , containers
     , parsec
     , parsec-numbers
     , split
@@ -51,10 +51,10 @@ executable aoc2020-haskell-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      Earley
-    , Unique >=0.4.7
+      Unique >=0.4.7
     , aoc2020-haskell
     , base >=4.7 && <5
+    , containers
     , parsec
     , parsec-numbers
     , split
@@ -69,10 +69,10 @@ test-suite aoc2020-haskell-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      Earley
-    , Unique >=0.4.7
+      Unique >=0.4.7
     , aoc2020-haskell
     , base >=4.7 && <5
+    , containers
     , parsec
     , parsec-numbers
     , split

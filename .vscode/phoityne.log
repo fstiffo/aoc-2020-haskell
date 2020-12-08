@@ -75,3 +75,43 @@
 2020-12-07 19:11:53.870600900000 [19127(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
 2020-12-07 19:17:11.474041900000 [19571(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
 2020-12-07 19:17:41.568240500000 [19571(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:06:29.100258200000 [490(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:07:30.861836200000 [579(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:08:32.754588400000 [666(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:09:51.734520000000 [756(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:11:23.112193400000 [1031(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:18:45.708586200000 [1123(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:26:48.746203900000 [1590(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 22:34:34.869406800000 [1688(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 23:01:32.912699900000 [2508(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 23:18:27.471193200000 [2777(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-07 23:25:34.885043900000 [3052(ThreadId 16)] CRITICAL REQUEST - invalid HANDLE. eof.
+2020-12-07 23:25:34.905854600000 [3052(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 09:31:40.346740200000 [1620(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 09:36:02.484868900000 [1731(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 09:36:41.798618300000 [1822(ThreadId 17)] ERROR APP - user error (variable id:16 not found.)
+2020-12-08 09:37:42.463789100000 [1822(ThreadId 17)] ERROR APP - user error (variable id:13 not found.)
+2020-12-08 09:41:04.768693500000 [1822(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 09:46:29.189158700000 [1918(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 10:45:38.684236600000 [3154(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 11:39:22.937848000000 [7544(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 11:41:50.371916300000 [7652(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 11:45:57.860141800000 [7754(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 11:49:06.580024100000 [7865(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 11:52:46.522617900000 [8142(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 11:58:26.181253000000 [8242(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 12:02:28.160155600000 [8347(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-08 12:09:44.857787700000 [8347(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-08 12:10:01.101729200000 [8347(ThreadId 17)] ERROR APP - user error (variable id:16 not found.)
+2020-12-08 12:15:07.627865200000 [8347(ThreadId 17)] ERROR APP - user error (variable id:11 not found.)
+2020-12-08 12:15:09.247933600000 [8347(ThreadId 17)] ERROR APP - user error (variable id:12 not found.)
+2020-12-08 12:15:42.438518000000 [8347(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-08 12:16:23.036420300000 [8347(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-08 12:17:02.681715300000 [8347(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-08 12:17:29.031594700000 [8347(ThreadId 17)] ERROR APP - user error (variable id:10 not found.)
+2020-12-08 12:17:37.908064700000 [8347(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 12:19:21.780776900000 [8454(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 12:22:55.596681900000 [8558(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 12:25:45.815580600000 [8663(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 13:28:26.277346500000 [9117(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
+2020-12-08 14:10:15.990274200000 [9355(ThreadId 20)] CRITICAL THREAD_MGR - Critical exit started.
