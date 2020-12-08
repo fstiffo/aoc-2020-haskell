@@ -95,8 +95,8 @@ contains color (Contain c ((_, c') : cs)) = (c' == color) || contains color (Con
 --     colorsOf1StContainer =
 --       map (\(Contain color _, _) -> color) $ filter snd marked1StContainers
 
-howManyContains :: [Content] -> String -> Int
-howManyContains contents color =
+howManyColorsContains :: [Content] -> String -> Int
+howManyColorsContains contents color =
   f Set.empty [color] (Set.fromList contents)
   where
     getColor :: Content -> String
@@ -115,12 +115,17 @@ howManyContains contents color =
                   (colors ++ newColorsToCheck)
                   (contentsToCheck `Set.difference` canContainColor)
 
+howManyBagsInside :: [Content] -> String -> Integer
+howManyBagsInside contents color =
+  0
+
 firstHalf :: IO Int
 firstHalf = do
   contents <- getInput
   -- print contents
-  return $ howManyContains contents "shiny gold"
+  return $ howManyColorsContains contents "shiny gold"
 
-secondHalf :: IO Int
+secondHalf :: IO Integer
 secondHalf = do
-  return 0
+  contents <- getInput
+  return $ howManyBagsInside contents "shiny gold"
