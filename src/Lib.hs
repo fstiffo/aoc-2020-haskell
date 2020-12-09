@@ -11,7 +11,7 @@ dispHeader = do
   putStrLn ""
   putStrLn ""
 
-dispDay :: Integer -> String -> IO Int -> IO Int -> IO ()
+dispDay :: Integer -> String -> IO Integer -> IO Integer -> IO ()
 dispDay day title sol1 sol2 = do
   putStrLn $ "--- Day " ++ show day ++ ": " ++ title ++ " ---"
   s1 <- sol1

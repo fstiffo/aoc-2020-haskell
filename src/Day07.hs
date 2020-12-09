@@ -1,9 +1,9 @@
 {-# LANGUAGE TupleSections #-}
 
-module Day07 where
+module Day07 (firstHalf, secondHalf) where
 
-import Control.Monad.Fix
 import Data.List.Split (splitOn)
+import Data.Maybe (fromMaybe)
 import Data.Set (Set)
 import qualified Data.Set as Set
 import Text.ParserCombinators.Parsec
@@ -23,6 +23,14 @@ data Content
   = ContainNoOtherBags String
   | Contain String [(Int, String)]
   deriving (Show, Read, Eq, Ord)
+
+getColor :: Content -> String
+getColor (ContainNoOtherBags color) = color
+getColor (Contain color _) = color
+
+toKeyValue :: Content -> (String, [(Int, String)])
+toKeyValue (ContainNoOtherBags color) = (color, [])
+toKeyValue (Contain color contents) = (color, contents)
 
 noOtherBags :: String -> GenParser Char st Content
 noOtherBags color = do
@@ -64,45 +72,10 @@ contains _ (ContainNoOtherBags _) = False
 contains _ (Contain _ []) = False
 contains color (Contain c ((_, c') : cs)) = (c' == color) || contains color (Contain c cs)
 
--- howManyContains :: [Content] -> String -> Int
--- howManyContains contents color =
---   fst (hmc 0 [] contents color 0)
---   where
---     hmc _ checked [] _ acc = (acc, checked)
---     hmc depth checked (ContainNoOtherBags _ : toCheck) color acc =
---       hmc depth checked toCheck color acc
---     hmc depth checked (Contain c cs : toCheck) color acc
---       | depth == 0 && contains (Contain c cs) color =
---         let (acc', checked') = hmc (depth + 1) [] checked c 0
---          in let (acc'', toCheck') = hmc (depth + 1) [] toCheck c 0
---              in hmc depth checked' toCheck' color (acc + 1 + acc' + acc'')
---       | contains (Contain c cs) color =
---         hmc depth checked toCheck color (acc + 1)
---       | otherwise =
---         hmc depth (Contain c cs : checked) toCheck color acc
-
--- howManyContains' :: [Content] -> String -> Int
--- howManyContains' contents color =
---   howManyContains'' marked1StContainers colorsOf1StContainer
---   where
---     countMarked x = length $ filter snd x
---     markContainers markedContents color =
---       map (\(x, mk) -> (x, contains x color || mk)) markedContents
---     howManyContains'' marked colors =
---       countMarked $ foldl markContainers marked colors
-
---     marked1StContainers = map (\x -> (x, contains x color)) contents
---     colorsOf1StContainer =
---       map (\(Contain color _, _) -> color) $ filter snd marked1StContainers
-
 howManyColorsContains :: [Content] -> String -> Int
 howManyColorsContains contents color =
   f Set.empty [color] (Set.fromList contents)
   where
-    getColor :: Content -> String
-    getColor (ContainNoOtherBags color) = color
-    getColor (Contain color _) = color
-
     f :: Set Content -> [String] -> Set Content -> Int
     f canContain [] _ = Set.size canContain
     f canContain (color : colors) contentsToCheck
@@ -115,17 +88,27 @@ howManyColorsContains contents color =
                   (colors ++ newColorsToCheck)
                   (contentsToCheck `Set.difference` canContainColor)
 
-howManyBagsInside :: [Content] -> String -> Integer
-howManyBagsInside contents color =
-  0
+-- howManyBagsInside :: [Content] -> String -> Integer
+-- howManyBagsInside contents color =
+--   let bag = lookupInContentsAL color
+--        in f 0 bag
+--   where
+--     contentsAL = map toKeyValue contents
+--     lookupInContentsAL :: String -> (String, [(String,Int)])
+--     lookupInContentsAL color = (color, fromMaybe [] $ lookup color contentsAL)
+--     f :: Integer -> (String, [(String, Int)]) -> Integer
+--     f acc (_, []) = acc + 1
+--     f acc (color, qs) =
+--       let f' (c, n) = n * f 0 (lookupInContentsAL c) in
+--         sum $ map f' qs
 
-firstHalf :: IO Int
+firstHalf :: IO Integer
 firstHalf = do
   contents <- getInput
   -- print contents
-  return $ howManyColorsContains contents "shiny gold"
+  return $ toInteger $ howManyColorsContains contents "shiny gold"
 
 secondHalf :: IO Integer
 secondHalf = do
   contents <- getInput
-  return $ howManyBagsInside contents "shiny gold"
+  return $ toInteger 0 --howManyBagsInside contents "shiny gold"
